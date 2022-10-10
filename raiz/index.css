@@ -1,0 +1,284 @@
+
+body {
+  width: 1200px;
+}
+/*barra navegacion*/
+
+/*.box-navegacion{
+display: inline-block;
+font-size: 20px;
+padding: 5px 5px;
+margin: 10px 10px;
+
+}*/
+
+
+.barra-navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  padding: 5px 5px ;
+  gap: 1rem;
+}
+
+
+/* logo NC */
+.logo {
+  color: white;
+  animation: neon-efecto 3s infinite;
+  font-family: 'scriptina';
+  font-size: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin: 10px 40% 10% 10%;
+  padding: 0%px 0%px 10% 0%;
+
+}
+
+@keyframes neon-efecto {
+     0%, 35%, 45%, 65%, 100% {
+      text-shadow: 
+        white 0 0 12px,
+        #EFFD6D 0 0 24px,
+        #effd6d 0 0 36px;
+  }
+       40%, 60% { text-shadow:none ;}
+}
+
+@font-face {
+  font-family:'scriptina';
+  src: url(./scriptina2/SCRIPALT.ttf);
+  src: url(./scriptina2/SCRIPTIN.ttf);
+
+}
+
+/* logo NC */
+
+/*.box-contenedor-navegacion{
+  margin-top: 10px;
+  padding-top: 10px;
+  display: inline-block;
+  
+} */
+
+a:hover {
+    color: #000000;
+    
+  }
+
+  a{ text-decoration: none;
+  color: #F7F0F0;}
+
+/*.barra-navegacion{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr ;
+  gap: 1fr;
+  justify-content: space-between ;
+
+}
+*/
+
+.box-contenedor-navegacion{
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 2% 5% 2% 60%;
+  padding: 2%;
+  align-items: center;
+  gap: 1rem;
+}
+.box-navegacion-inicio{
+  display: flex;
+  width: 100px;
+  height: 25px;
+  margin: 5px 5px;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: transform 0.3s;
+}
+.box-navegacion-inicio:hover{
+  transform: scale(1.7);
+}
+
+.box-navegacion-nosotros{
+  display: flex;
+  width: 100px;
+  height: 25px;
+  margin: 5px 5px;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: transform 0.5s;
+}
+.box-navegacion-nosotros:hover{
+  transform: scale(1.7);
+}
+.box-navegacion-servicios{
+  display: flex;
+  width: 100px;
+  height: 25px;
+  margin: 5px 5px;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: transform 0.5s;
+
+}
+.box-navegacion-servicios:hover{
+  transform: scale(1.7);}
+
+.box-navegacion-galeria{
+  display: flex;
+  width: 100px;
+  height: 25px;
+  margin: 5px 5px;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: transform 0.5s;
+}
+.box-navegacion-galeria:hover{
+  transform: scale(1.7);}
+
+.box-navegacion-contacto{
+  display: flex;
+  width: 100px;
+  height: 25px;
+  margin: 5px 5px;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: transform 0.5s; 
+}
+.box-navegacion-contacto:hover{
+  transform: scale(1.7);}
+header{
+  background-color: #FF3562;
+  font-family: cursive;
+ 
+
+}
+
+/*.logo{
+  text-align: start;
+  display: inline-block;
+  height: 50%;
+  
+}*/
+
+/*barra navegacion*/
+
+
+.banner{
+text-align: center;
+background-color: black;
+
+}
+.pagina-principal-presentacion a {
+  text-align: start;
+
+}
+/*pagina principal*/
+
+/*nosotros*/
+
+/*nosotros*/
+
+
+/* texto y fondo color*/
+h1{
+  text-align: start;
+  font-family: cursive;
+  color: #F7F0F0;
+
+}
+h2{ font-family: cursive;
+  color: #F7F0F0;
+}
+
+
+body {
+  background-color:#4F4789;
+} 
+
+p { color: #F7F0F0;
+  }
+ 
+/* texto y fondo color*/
+
+
+
+  /*servicios*/
+
+.contenedor-barras {
+  list-style: none;
+  
+}
+.barra-simple{
+  border: #F7F0F0 solid ;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.barra-normal{
+  border: #F7F0F0 solid ;
+padding-left: 10px;
+padding-right: 10px;
+}
+.barra-premium{
+  border: #F7F0F0 solid ;
+padding-left: 10px;
+padding-right: 10px;
+}
+.barra-kid{
+  border: #F7F0F0 solid ;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+/*servicios*/
+
+/*contacto*/
+.contenedor-formulario{
+display: inline-block;
+  margin-left:  400px; 
+  margin-top: 20px;
+  padding: 50px 50px 50px 50px;
+  background-color: #FF3562;
+  list-style: none;
+  border: #F7F0F0  solid;
+}
+/*contacto*/
+
+
+/*galeria*/
+.galery {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/*galeria*/
+
+
+/*footer*/
+ footer {
+    background-color: #FF3562;
+    
+  }
+  .box-redes-sociales{
+    display: inline-block;
+    list-style:none;
+    padding: 20px;
+    
+  /*footer*/
+
+
+  /*https://coolors.co/0a0908-f7f0f0-ff3562-4f4789-1b2cc1*/
