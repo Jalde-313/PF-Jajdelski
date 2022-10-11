@@ -27,12 +27,12 @@ margin: 10px 10px;
   color: white;
   animation: neon-efecto 3s infinite;
   font-family: 'scriptina';
-  font-size: 100px;
+  font-size: 5em;
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  margin: 10px 40% 10% 10%;
+  margin: 10px 40% 35% 10%;
   padding: 0%px 0%px 10% 0%;
 
 }
@@ -55,6 +55,12 @@ margin: 10px 10px;
 }
 
 /* logo NC */
+
+@font-face {
+font-family:'trojan';
+  src: url();
+
+}
 
 /*.box-contenedor-navegacion{
   margin-top: 10px;
@@ -161,8 +167,8 @@ a:hover {
   transform: scale(1.7);}
 header{
   background-color: #FF3562;
-  font-family: cursive;
- 
+  font-family: 'trojan';
+ height: 7rem;
 
 }
 
@@ -206,6 +212,7 @@ h2{ font-family: cursive;
 
 body {
   background-color:#4F4789;
+  margin: 5px 30px 10px 25px;
 } 
 
 p { color: #F7F0F0;
@@ -274,10 +281,44 @@ display: inline-block;
     
   }
   .box-redes-sociales{
-    display: inline-block;
+    display:flex;
+    flex-direction: row;
     list-style:none;
-    padding: 20px;
+    justify-content: flex-start;
+    padding: 5px;
+    margin: 0px 0px 50px 0px;
+ 
+  }  
+  .box-redes-sociales-facebook{
+    flex-direction: row;
+      display: flex;
+      width: 100px;
+      height: 25px;
+      margin: 0px 0px 0px 0px;
+      padding: 5px;
+      justify-content:center;
+      align-items: center;
+      transition: transform 0.3s;
     
+    }
+    .box-redes-sociales-facebook:hover{
+      transform: scale(2.1);
+    }
+.box-redes-sociales-instagram{
+     display: flex;
+     flex-direction: row;
+      width: 100px;
+      height: 25px;
+      margin: 5px 5px;
+      padding: 5px;
+      justify-content:center;
+      align-items: center;
+      transition: transform 0.3s;
+
+}
+.box-redes-sociales-instagram:hover{
+  transform: scale(2.1);}
+
   /*footer*/
 
 
