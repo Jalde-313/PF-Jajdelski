@@ -1,25 +1,11 @@
 
 body {
-  width: 1200px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  background-color:#4F4789;
 }
-/*barra navegacion*/
 
-/*.box-navegacion{
-display: inline-block;
-font-size: 20px;
-padding: 5px 5px;
-margin: 10px 10px;
-
-}*/
-
-
-.barra-navegacion {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  padding: 5px 5px ;
-  gap: 1rem;
-}
 
 
 /* logo NC */
@@ -28,13 +14,11 @@ margin: 10px 10px;
   animation: neon-efecto 3s infinite;
   font-family: 'scriptina';
   font-size: 5em;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
+ /* display: flex;
   align-items: center;
   margin: 10px 40% 35% 10%;
   padding: 0%px 0%px 10% 0%;
-
+justify-content: left;*/
 }
 
 @keyframes neon-efecto {
@@ -56,36 +40,26 @@ margin: 10px 10px;
 
 /* logo NC */
 
-@font-face {
-font-family:'trojan';
-  src: url();
+/*barra de navegacion*/
 
+
+.barra-navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  padding: 5px 5px ;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-/*.box-contenedor-navegacion{
-  margin-top: 10px;
-  padding-top: 10px;
-  display: inline-block;
-  
-} */
 
 a:hover {
     color: #000000;
-    
+    text-decoration: none;  
   }
 
   a{ text-decoration: none;
   color: #F7F0F0;}
-
-/*.barra-navegacion{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr ;
-  gap: 1fr;
-  justify-content: space-between ;
-
-}
-*/
 
 .box-contenedor-navegacion{
   width: 400px;
@@ -99,98 +73,106 @@ a:hover {
   align-items: center;
   gap: 1rem;
 }
+
+
 .box-navegacion-inicio{
-  display: flex;
-  width: 100px;
-  height: 25px;
-  margin: 5px 5px;
-  padding: 5px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  transition: transform 0.3s;
+transition: transform 0.3s;
 }
 .box-navegacion-inicio:hover{
-  transform: scale(1.7);
+  transform: scale(1.5);
 }
 
 .box-navegacion-nosotros{
-  display: flex;
-  width: 100px;
-  height: 25px;
-  margin: 5px 5px;
-  padding: 5px;
-  justify-content: flex-start;
-  align-items: flex-start;
+ 
   transition: transform 0.5s;
 }
 .box-navegacion-nosotros:hover{
-  transform: scale(1.7);
+  transform: scale(1.5);
 }
 .box-navegacion-servicios{
-  display: flex;
-  width: 100px;
-  height: 25px;
-  margin: 5px 5px;
-  padding: 5px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  transition: transform 0.5s;
+ transition: transform 0.5s;
 
 }
 .box-navegacion-servicios:hover{
-  transform: scale(1.7);}
+  transform: scale(1.5);}
 
 .box-navegacion-galeria{
-  display: flex;
-  width: 100px;
-  height: 25px;
-  margin: 5px 5px;
-  padding: 5px;
-  justify-content: flex-start;
-  align-items: flex-start;
   transition: transform 0.5s;
 }
 .box-navegacion-galeria:hover{
-  transform: scale(1.7);}
+  transform: scale(1.5);}
 
 .box-navegacion-contacto{
-  display: flex;
-  width: 100px;
-  height: 25px;
-  margin: 5px 5px;
-  padding: 5px;
-  justify-content: flex-start;
-  align-items: flex-start;
   transition: transform 0.5s; 
 }
 .box-navegacion-contacto:hover{
-  transform: scale(1.7);}
+  transform: scale(1.5);} 
+
 header{
-  background-color: #FF3562;
-  font-family: 'trojan';
- height: 7rem;
+  background-color: #FF3562;}
+/*barra de navegacion*/
 
-}
-
-/*.logo{
-  text-align: start;
-  display: inline-block;
-  height: 50%;
-  
-}*/
-
-/*barra navegacion*/
-
-
+  /*main pagina principal*/
 .banner{
 text-align: center;
 background-color: black;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.banner-img{
+  position: relative;;
+}
+.banner-titulo{
+  
+font-family:'scriptina';
+font-size: 3em;
+position: absolute;
+top: 75%;
+left: 50%;
+display: flex;
+transform: translate(-50%, -50%);
+animation: neon-efecto 3s infinite;
 
 }
 .pagina-principal-presentacion a {
+  display: flex;
+  flex-direction: column;
   text-align: start;
-
+ 
 }
+.contenedor-img-index{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+.img-index1{
+  display: flex;
+  justify-content: end;
+  float: right;
+  max-width: 400px;
+  margin-right: 2em;
+  
+  
+}
+.img-index2{
+  display: flex;
+  justify-content: end;
+  float: right; 
+  max-width: 400px;
+  margin-right: 2em;
+}
+
+.parrafo-imagen{
+  font-size: 1rem;
+}
+
+ /*main pagina principal*/
+
+
 /*pagina principal*/
 
 /*nosotros*/
@@ -208,12 +190,6 @@ h1{
 h2{ font-family: cursive;
   color: #F7F0F0;
 }
-
-
-body {
-  background-color:#4F4789;
-  margin: 5px 30px 10px 25px;
-} 
 
 p { color: #F7F0F0;
   }
@@ -252,16 +228,20 @@ padding-right: 10px;
 
 /*servicios*/
 
+
 /*contacto*/
 .contenedor-formulario{
 display: inline-block;
-  margin-left:  400px; 
+ /* margin-left:  400px; 
   margin-top: 20px;
-  padding: 50px 50px 50px 50px;
+  padding: 50px 50px 50px 50px;*/
   background-color: #FF3562;
   list-style: none;
   border: #F7F0F0  solid;
 }
+
+
+
 /*contacto*/
 
 
@@ -269,17 +249,23 @@ display: inline-block;
 .galery {
   display:flex;
   justify-content: space-between;
-  flex-direction: column;
+ flex-direction: column;
+  gap: 1rem;
 }
+.galery-img{
+  max-width:75em;
+  text-align: center;
+  align-content: center;
 
+}
 /*galeria*/
 
 
 /*footer*/
  footer {
     background-color: #FF3562;
-    width: 1200px;
-    height: 50px;
+    height: 4rem;
+    margin: 15px 5px 0px 5px;
     
   }
   .boxer-redes-sociales{
@@ -335,6 +321,11 @@ display: inline-block;
 }
 .box-redes-sociales-twitter:hover{
   transform: scale(2.1);  
+}
+
+.copyright{
+  text-align: center;
+  font-size: 0.5rem;
 }
 
   /*footer*/
