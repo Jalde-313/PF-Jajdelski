@@ -7,8 +7,8 @@
         <title>Nereo C Eventos Contacto</title>
         <meta name="description" content="html">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../bootstrap.css">
-        <link rel="stylesheet" href="../index.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         
     </head>
@@ -20,19 +20,19 @@
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <svg class="bi me-2 " width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        <span class="fs-4 logo ">NereoC </span>
+        <span class="fs-4 logo ">N e r e o C </span>
       </a>
   
-      <ul class="nav nav-pills">
-        <li class="nav-item nav-fill box-navegacion-inicio"><a href="../index.html" class="nav-link" >INICIO</a></li>
+      <ul class="nav nav-pills barra-navegacion">
+        <li class="nav-item nav-fill box-navegacion-inicio"><a href="../index.html" class="nav-link:hover" >INICIO</a></li>
 
-        <li class="nav-item nav-fill box-navegacion-nosotros"><a href="../nosotros/nosotros.html" class="nav-link">NOSOTROS</a></li>
+        <li class="nav-item nav-fill box-navegacion-nosotros"><a href="../pages/nosotros.html" class="nav-link:hover">NOSOTROS</a></li>
 
-        <li class="nav-item nav-fill box-navegacion-servicios"><a href="../servicios/servicios.html" class="nav-link">SERVICIOS</a></li>
+        <li class="nav-item nav-fill box-navegacion-servicios"><a href="../pages/servicios.html" class="nav-link:hover">SERVICIOS</a></li>
 
-        <li class="nav-item nav-fill box-navegacion-galeria"><a href="../galeria/galeria.html" class="nav-link">GALERIA</a></li>
+        <li class="nav-item nav-fill box-navegacion-galeria"><a href="../pages/galeria.html" class="nav-link:hover">GALERIA</a></li>
 
-        <li class="nav-item nav-fill box-navegacion-contacto"><a href="../contacto/contacto.html" class="nav-link">CONTACTO</a></li>
+        <li class="nav-item nav-fill box-navegacion-contacto"><a href="../pages/contacto.html" class="nav-link:hover">CONTACTO</a></li>
       </ul>
     </header>
   </div>
@@ -41,8 +41,8 @@
    <!--- Barra de navegacion -->
     
         <!--formulario-->
-        <h1 class="contacto-titulo">Contacto</h1>
-
+        
+    <div class="container"><h1 class="contacto-titulo">Contacto</h1></div>
         <section class="container contenedor-formulario">
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nombre</label>
@@ -51,12 +51,12 @@
             <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             <label for="exampleInputEmail1" class="form-label">Email</label>
             <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <label for="exampleFormControlTextarea1" class="form-label">Consultas</label>
+           <label for="exampleFormControlTextarea1" class="form-label">Consultas</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             <br>
-          <button type="submit" class="btn btn-light btn-sm">Enviar</button>
-          <button type="reset" class="btn btn-light btn-sm">Borrar</button>
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+           <button type="submit" class="btn btn-light btn-sm">Enviar</button>
+           <button type="reset" class="btn btn-light btn-sm">Borrar</button>
+           <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Quiero recibir informacion</label>
         </div>
           
@@ -84,6 +84,6 @@
       </footer>
   
   <!-- footer-->
-  <script src="../bootstrap.bundle.js"></script>
+  <script src="../javascript/bootstrap.bundle.js"></script>
       </body>   
 </html>

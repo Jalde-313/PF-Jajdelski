@@ -33,8 +33,8 @@ justify-content: left;*/
 
 @font-face {
   font-family:'scriptina';
-  src: url(./scriptina2/SCRIPALT.ttf);
-  src: url(./scriptina2/SCRIPTIN.ttf);
+  src: url(../scriptina2/SCRIPALT.ttf);
+  src: url(../scriptina2/SCRIPTIN.ttf);
 
 }
 
@@ -54,8 +54,9 @@ justify-content: left;*/
 
 
 a:hover {
-    color: #000000;
-    text-decoration: none;  
+    color: #100101;
+    text-decoration: none; 
+    gap: 1rem; 
   }
 
   a{ text-decoration: none;
@@ -128,9 +129,9 @@ justify-content: center;
 .banner-titulo{
   
 font-family:'scriptina';
-font-size: 3em;
+font-size: 5em;
 position: absolute;
-top: 75%;
+top: 70%;
 left: 50%;
 display: flex;
 transform: translate(-50%, -50%);
@@ -166,9 +167,7 @@ animation: neon-efecto 3s infinite;
   margin-right: 2em;
 }
 
-.parrafo-imagen{
-  font-size: 1rem;
-}
+
 
  /*main pagina principal*/
 
@@ -328,7 +327,87 @@ display: inline-block;
   font-size: 0.5rem;
 }
 
-  /*footer*/
+/*footer*/
+.parrafo-imagen{
+  font-size: 1rem;
+}
 
 
-  /*https://coolors.co/0a0908-f7f0f0-ff3562-4f4789-1b2cc1*/
+@media screen and (max-width:1400px) {
+  .parrafo-imagen{
+    font-size: 1.2rem;
+  }
+  h1{
+    font-size: xx-large;
+  }
+  .img-index1{
+    max-width: 450px;
+  }
+  .img-index2{
+    max-width: 450px;
+  }
+  .banner-titulo{
+  
+    top: 70%;
+    left: 50%;
+    font-size: 7em; 
+} 
+
+@media screen and (max-width: 992px) {
+  .parrafo-imagen{
+    font-size: 1rem;
+  }
+  h1{
+    font-size: x-large;
+  }
+  .img-index1{
+    max-width: 300px;
+  }
+  .img-index2{
+    max-width: 300px;
+  }
+  .banner-titulo{
+  
+    top: 55%;
+    left: 50%;
+    font-size: 5em; 
+} 
+@media screen and (max-width: 772px) {
+  .parrafo-imagen{
+    font-size: 0.8rem;
+  }
+  .img-index1{
+    max-width: 200px;
+  }
+  .img-index2{
+    max-width: 200px;
+  }
+  .banner-titulo{
+  
+    top: 50%;
+    left: 50%;
+    font-size: 3.5em; 
+}
+
+@media screen and (max-width: 576px) {
+  .parrafo-imagen{
+    font-size: 0.6rem;
+  }
+  .img-index1{
+    max-width: 150px;
+  }
+  .img-index2{
+    max-width: 150px;
+  }
+  /* h1 {font-size: medium;} */
+
+  .banner-titulo{
+  
+    top: 55%;
+    left: 50%;
+    font-size: 2.5em; 
+}
+}
+
+
+  /* https://coolors.co/0a0908-f7f0f0-ff3562-4f4789-1b2cc1 */
