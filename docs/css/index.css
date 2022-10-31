@@ -62,7 +62,7 @@ a:hover {
   a{ text-decoration: none;
   color: #F7F0F0;}
 
-.box-contenedor-navegacion{
+/* .box-contenedor-navegacion{
   width: 400px;
   height: 100px;
   display: flex;
@@ -73,7 +73,7 @@ a:hover {
   padding: 2%;
   align-items: center;
   gap: 1rem;
-}
+} */
 
 
 .box-navegacion-inicio{
@@ -408,6 +408,17 @@ display: inline-block;
     font-size: 2.5em; 
 }
 }
+
+
+/* @keyframes neon-efecto-border {
+  0%, 35%, 45%, 65%, 100% {
+   box-shadow: 
+     white 0 0 12px,
+     #EFFD6D 0 0 24px,
+     #effd6d 0 0 36px;
+}
+    40%, 60% { box-shadow:none ;}
+} */
 
 
   /* https://coolors.co/0a0908-f7f0f0-ff3562-4f4789-1b2cc1 */

@@ -1,0 +1,39 @@
+footer {
+  border-radius: 1rem;
+    background-color: #FF3562;
+    height: 4rem;
+    margin: 15px 5px 0px 5px;
+        .boxer-redes-sociales{
+          display:flex;
+          flex-direction: row;
+          list-style:none;
+          justify-content: flex-start;} 
+
+        .box-redes-sociales{
+           flex-direction: row;
+           display: flex;
+           width: 50px;
+           height: 25px;
+           margin: 5px 0px 0px 0px;
+           padding: 5px;
+           justify-content:center;
+           align-items: center;
+           transition: transform 0.3s;
+         
+         } 
+         .box-redes-sociales:hover{
+          transform: scale(2.1);
+}
+           .copyright{
+              text-align: center;
+              font-size: 0.5rem;
+}
+         a:hover {
+             color: #100101;
+             text-decoration: none; 
+             gap: 1rem; 
+}
+
+             a{ text-decoration: none;
+              color: #F7F0F0;}
+}

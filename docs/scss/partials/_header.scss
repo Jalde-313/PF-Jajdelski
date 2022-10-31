@@ -1,0 +1,33 @@
+header{
+    background-color: #FF3562;
+    border-radius: 1rem;
+
+  .logo {
+       color: white;
+       animation: neon-efecto 3s infinite;
+       font-family: 'scriptina';
+        font-size: 2rem;}
+   .barra-navegacion {
+         display: flex;
+         flex-direction: row;
+         justify-items: center;
+         padding: 5px 5px ;
+         gap: 1rem;
+         flex-wrap: wrap;
+               }  
+   .box-navegacion{
+         transition: transform 0.3s;
+}
+   .box-navegacion:hover{
+         transform: scale(1.5);
+}
+    a:hover {
+      color: #100101;
+      text-decoration: none; 
+      gap: 1rem; 
+       }
+
+    a{ text-decoration: none;
+      color: #F7F0F0;
+font-family: cursive;}
+}

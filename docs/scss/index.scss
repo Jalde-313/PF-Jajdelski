@@ -1,0 +1,47 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    background-color:#4F4789;
+ 
+
+ @import './misc/mediaquery';
+@import'./partials/header';
+@import './misc/normalize.scss';
+@import './pages/principal.scss';
+@import './pages/contacto';
+@import './pages/galeria';
+@import './pages/nosotros';
+@import './pages/servicios';
+@import './partials/footer';
+
+    
+
+ 
+@keyframes neon-efecto {
+  0%, 35%, 45%, 65%, 100% {
+   text-shadow: 
+     white 0 0 12px,
+     #EFFD6D 0 0 24px,
+     #effd6d 0 0 36px;
+}
+    40%, 60% { text-shadow:none ;}
+}
+
+
+
+ }
+  
+ @font-face {
+font-family:'scriptina';
+src: url(../scriptina2/SCRIPALT.ttf);
+src: url(../scriptina2/SCRIPTIN.ttf);
+
+}  
+
+
+   
+  
+   
+
+
